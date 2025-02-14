@@ -133,10 +133,8 @@ def primer_desafio():
 def comunicarse():
     print("\nBuzz intenta comunicarse pacíficamente con los alienígenas.")
     print('''
-        Sorprendentemente, los alienígenas responden de manera amistosa,
-        invitan a Buzz por unas cervezas
-        le dan mota de la galactica y Buzz grita: Al infinito y más allá!''')
-    print("Luego en medio de todo, ellos le indican el camino hacia la base de Zorg que queda a la vuelta.")
+        Sorprendentemente, los alienígenas responden de manera amistosa,''')
+    print("Luego de entablar una conversacion amistosa, le indican el camino hacia la base de Zorg que queda a unos cuantos Kilometros.")
     print("Buzz sigue las indicaciones y llega a la base de Zorg.")
     def final_amable():
         ultimo_desafio()

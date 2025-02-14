@@ -264,14 +264,27 @@ elif star_wars_movie.lower() == "rogue one":
           
 A long time ago in a galaxy far, far away....
 
-It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet. Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy....''')
+It is a period of civil war. Rebel spaceships, striking from a hidden base
+have won their first victory against the evil Galactic Empire.
+During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon,
+the DEATH STAR,
+an armored space station with enough power to destroy an entire planet. 
+Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship
+custodian of the stolen plans that can save her people and restore freedom to the galaxy....''')
+
     print("Invalid selection. Please choose a valid episode number (1-9) or title (Rogue One, Solo).")
+    
+elif star_wars_movie.lower() == "solo":
     print('''
     Solo: A Star Wars Story
           
 A long time ago in a galaxy far, far away....
 
-Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.''')
+Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, 
+an all-new adventure with the most beloved scoundrel in the galaxy.
+Through a series of daring escapades deep within a dark and dangerous criminal underworld
+Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian
+in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.''')
 else:
     print("Episode not found please use a valid episode number (1-9) or title (Rogue One, Solo).")
 print("Returning to the menu...")
